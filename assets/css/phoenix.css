@@ -32,12 +32,12 @@ select {
 .phx-hero {
   text-align: center;
   border-bottom: 1px solid #e3e3e3;
-  background: #eee;
+  background: rgb(200, 239, 249);
   border-radius: 6px;
   padding: 3em 3em 1em;
   margin-bottom: 3rem;
   font-weight: 200;
-  font-size: 120%;
+  font-size: 100%;
 }
 .phx-hero input {
   background: #ffffff;
@@ -99,3 +99,5 @@ header nav a {
     margin: 2rem 1rem;
   }
 }
+
+

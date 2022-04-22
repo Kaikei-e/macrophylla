@@ -118,3 +118,8 @@
   0% { opacity: 1; }
   100% { opacity: 0; }
 }
+
+body{
+  background-image: url("/images/macrophyllaS.png");
+  background-size: cover;
+}
