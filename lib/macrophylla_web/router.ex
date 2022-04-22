@@ -18,7 +18,7 @@ defmodule MacrophyllaWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
-    get "/the_room" , AuthController, :show
+    get "/the_room" , TheRoomController, :show
   end
 
   # Other scopes may use custom stacks.

@@ -1,4 +1,4 @@
-defmodule MacrophyllaWeb.AuthController do
+defmodule MacrophyllaWeb.TheRoomController do
   use MacrophyllaWeb, :controller
 
   def show(conn, _params) do
