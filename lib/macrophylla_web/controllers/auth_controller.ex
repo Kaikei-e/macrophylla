@@ -1,7 +1,7 @@
-defmodule Macrophylla.AuthController do
+defmodule MacrophyllaWeb.AuthController do
   use MacrophyllaWeb, :controller
 
-  def enter(conn, _params) do
+  def show(conn, _params) do
     render(conn, "the_room.html")
   end
 end
