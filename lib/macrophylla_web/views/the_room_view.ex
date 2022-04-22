@@ -1,3 +1,3 @@
-defmodule MacrophyllaWeb.TheRoomView do
+defmodule MacrophyllaWeb.Page.TheRoomView do
   use MacrophyllaWeb, :view
 end
