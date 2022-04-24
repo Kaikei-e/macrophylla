@@ -1,13 +1,18 @@
-<section class="phx-hero">
-  <h1>Macrophylla</h1>
-  <h2>A simple collaborative Markdown Editor</h2>
-
-</section>
-<section class="row">
-  <section class="column">
-    <h3><%= gettext "Welcome to %{name}!", name: "User1" %></h3>
-    <div>Enter pass phrase!</div>
+<div class="container w-screen">
+  <h1 class="text-3xl m-5 font-mono font-family: SFMono-Regular">Macrophylla</h1>
+  <h2 class="text-xl m-5 font-mono font-family: SFMono-Regular" >: A simple collaborative Markdown Editor</h2>
+</div>
+<div class="w-screen justify-center content-center place-items-center">
+  <div class="columns-1 m-5 w-3/5">
+    <div class="w-1/5 m-3">
+        <form class="columns-1 bg-blue-200 shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <label>Enter the pass phrase that contains 5 words.</label>
+            <br>
+            <input type="text"/>
+            <br>
+            <input type="submit"/>
+        </form>
+    </div>
     <a href="/the_room">Dive into it.</a>
-
-  </section>
-</section>
+  </div>
+</div>
