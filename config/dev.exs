@@ -52,6 +52,9 @@ config :macrophylla, MacrophyllaWeb.Endpoint,
       ~r"lib/macrophylla_web/(live|views)/.*(ex)$",
       ~r"lib/macrophylla_web/templates/.*(eex)$"
     ]
+  ],
+  watchers: [
+    tailwind: {Tailwind, :install_and_run, [:default, ~w(--watch)]}
   ]
 
 # Do not include metadata nor timestamps in development logs
