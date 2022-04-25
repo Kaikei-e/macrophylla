@@ -47,7 +47,8 @@ defmodule Macrophylla.MixProject do
       {:jason, "~> 1.2"},
       {:plug_cowboy, "~> 2.5"},
       {:tailwind, "~> 0.1", runtime: Mix.env() == :dev},
-      {:mnemonic, "~> 0.2.0"}
+      {:mnemonic, "~> 0.2.0"},
+      {:mnemonic_slugs, "~> 0.0.3"}
     ]
   end
 
