@@ -5,17 +5,10 @@ defmodule Chat do
 
   @doc """
   Hello world.
-
-  ## Examples
-
-      iex> Chat.hello()
-      :world
-
   """
   def hello do
-    alias Host.MakeHost.make_host, as: Host.MakeHost
-
-    Host.MakeHost
+    alias Host.MakeHost, as: MakeHost
+    MakeHost
     :world
   end
 end

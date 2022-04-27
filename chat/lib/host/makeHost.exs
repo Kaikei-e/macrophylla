@@ -1,6 +1,6 @@
-defmodule MakeHost do
+defmodule Host.MakeHost do
   def make_host do
-    prvKey = Base.encode16(:crypto.rsa_private())
+    prvKey = Base.encode16(:crypto.generate_key())
     IO.puts prvKey
   end
 end
