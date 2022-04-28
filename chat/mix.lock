@@ -1,0 +1,7 @@
+%{
+  "basefiftyeight": {:hex, :basefiftyeight, "0.1.0", "3d48544743bf9aab7ab02aed803ac42af77acf268c7d8c71d4f39e7fa85ee8d3", [:mix], [], "hexpm", "af12f551429528c711e98628c029ad48d1e5ba5a284f40b2d91029a65381837a"},
+  "ex_multiaddr": {:hex, :ex_multiaddr, "0.1.0", "8865882867f01e8c298c3c1ad5bd56b96da7ceac5c9b7d27f89219cfbe53f9ed", [:mix], [{:basefiftyeight, "~> 0.1.0", [hex: :basefiftyeight, repo: "hexpm", optional: false]}, {:ex_multihash, "~> 1.0", [hex: :ex_multihash, repo: "hexpm", optional: false]}, {:varint, "~> 1.0.0", [hex: :varint, repo: "hexpm", optional: false]}], "hexpm", "033674687527ef2f98fa35ba4ffa3b547845024243d58355ea2f5bd28f2a7dcf"},
+  "ex_multihash": {:hex, :ex_multihash, "1.0.0", "1833995f1871ad006a2e060b9dec0fc172e0e30796031f0a4cf11fcb5e626124", [:mix], [{:monad, "~> 1.0.4", [hex: :monad, repo: "hexpm", optional: false]}], "hexpm", "d31d4794bfbf7ea8a06e095fb8753466cd8532ad4f4c0c6ea60077c77818fbaa"},
+  "monad": {:hex, :monad, "1.0.5", "bd02263a8dad0894433ca3283ebb6f71a55799e1cd17bda1e8b2ea9e14eeb9c5", [:mix], [], "hexpm", "d8ebe20971160e96bd6cdf11b5e8b5c24b70fddde3d198e5f7c3b5ebfbc78d6e"},
+  "varint": {:hex, :varint, "1.0.1", "081c8c9447a5384a3a6a6b48c1fc2a12554530757ab71e501a109f45c003bada", [:mix], [], "hexpm", "11dd3262d769bb71710f866860aa957ad81f21df5ab645798af07666a1379afe"},
+}
