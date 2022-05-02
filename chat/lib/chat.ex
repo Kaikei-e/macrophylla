@@ -7,8 +7,8 @@ defmodule Chat do
   Hello world.
   """
   def hello do
-    alias Host.MakeHost, as: MakeHost
-    MakeHost
+    alias Host.MakeHost, as: MkHost
+    MkHost
     :world
   end
 end
