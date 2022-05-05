@@ -9,3 +9,9 @@ This repository is an Elixir implementation of go-libp2p.
 
 ~~It takes advantage of the characteristics of Elixir to support simultaneous editing.~~
 ~~It is an experimental project as it is a study.~~
+
+
+## Reference  
+
+
+- based on [multi-address](https://github.com/aratz-lasa/ex_multiaddr) 
